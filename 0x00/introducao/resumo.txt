@@ -8,6 +8,6 @@ Alguns dos benefícios de utilizar a arquitetura de microsserviços são:
 - Manutenção: dado que cada serviço da arquitetura tem como escopo apenas parte do sistema, seu código é menor e focado. Tornando mais simples de se fazerem alterações.
 
 Os de comunicação mais comuns entre arquiteturas de microsserviços são:
-- Comunicação por HTTP
-- Comunicação por Mensagens
-- Comunicação Orientada a Eventos.
+- Comunicação por HTTP: é um protocolo síncrono. O cliente envia uma solicitação e espera uma resposta do serviço. Isso é independente da execução do código do cliente que pode ser síncrona (o thread é bloqueado) ou assíncrona (o thread não é bloqueado e a resposta acabará alcançando um retorno de chamada). O ponto importante aqui é que o protocolo (HTTP/HTTPS) é síncrono e o código do cliente somente poderá continuar sua tarefa quando receber a resposta do servidor HTTP.
+- Comunicação por Mensagens: 
+- Comunicação Orientada a Eventos
