@@ -1,0 +1,13 @@
+Microsserviços são uma abordagem arquitetônica e organizacional do desenvolvimento de software na qual o software consiste em pequenos serviços independentes que se comunicam usando APIs bem definidas. Esses serviços pertencem a pequenas equipes autossuficientes.
+
+Essa arquitetura contrasta com a arquitetura monolítica, que é altamente acoplada e diferentes times tem dificuldades de implementar mudanças pois atual no mesmo sistema simultaneamente.
+
+Alguns dos benefícios de utilizar a arquitetura de microsserviços são:
+- Baixo acoplamento: times definem um contrato de descrevendo as funções que seus serivços possuem e podem atuar de forma paralela.
+- Escalabilidade: como os serviços são independentes, podemos escalar somente as partes sobrecarregadas, ao invés de todo sistema.
+- Manutenção: dado que cada serviço da arquitetura tem como escopo apenas parte do sistema, seu código é menor e focado. Tornando mais simples de se fazerem alterações.
+
+Os de comunicação mais comuns entre arquiteturas de microsserviços são:
+- Comunicação por HTTP
+- Comunicação por Mensagens
+- Comunicação Orientada a Eventos.
