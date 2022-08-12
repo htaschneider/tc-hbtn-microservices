@@ -1,0 +1,30 @@
+- O que é Arquitetura Serverless?
+A arquitetura serverless é um modelo de execusão no qual o provedor de cloud aloca, a medida que necessário (sob demanda), recursos computacionais. Serve para abstrair essa parte de infraestrutura e permitir que times se preocupem com outras tarefas.
+
+- O que é Function as a service (FaaS)?
+Já FaaS(Function as a service) é uma categoria de cloud que permite que consumidores desenvolvam, rodem e gerenciem funcionalidades de suas aplicações sem ter a complexidade de criar e mater infraestrutura associada a alterações de aplicações.
+
+- Quais são os benefícios de usar arquitetura Serverless?
+O maior diferencial é a redução no custo operacional, seja ele de bens físicos como possuir um ou mais servidores seja pela sua manutenção, de contratar profissionais para modelar essa infraestrutura. Como dito acima, essa parte do serviço é astraida dos times e os recursos computacionais necessários são alocados dinamicamente pelo provedor.
+
+- O que é Cloud Computing (Computação em Nuvem)? E quais são seu benefícios?
+Cloud computing, ou computação em nuvem, é um dos recursos que o avanço da tecnologia nos proporcionou. Ele permite que os usuários armazenem e acessem sistemas e ferramentas, pela internet, sem a obrigação de salvar dados em um computador. Normalmente, utiliza um servidor remoto.
+Alguns de seus benefícios são:
+1. Mais segurança
+Como os arquivos ficam em servidores on-line, há menos chances de que se percam, ao contrário dos hardwares. E o cloud computing oferece mais segurança, porque utiliza firewalls, grupos e zonas de proteção organizadas em camadas. Também há profissionais especializados que são designados para combater tentativas de ciberataques. Além disso, como já mencionamos, a maioria dos serviços em nuvem utilizam a Certificação Digital, o que permite que somente as pessoas autorizadas tenham acesso aos arquivos.
+
+2. Mais espaço de armazenamento
+Os computadores e demais equipamentos que servem como servidores físicos, possuem um limite para guardar os dados. Já com o cloud computing é possível ter maior espaço para guardar arquivos. Há soluções que contam com planos de assinatura de acordo com a disponibilidade para manter as informações da empresa.
+
+3. Melhor organização de arquivos
+No cloud computing é mais fácil organizar documentos, além de ser uma forma mais econômica de armazenar as informações. O ideal é que exista um padrão para que os usuários continuem salvando os arquivos de forma ordenada. Afinal, com o serviço em nuvem, todos os envolvidos têm acesso aos dados guardados.
+
+4. Redução de custos
+Como não há a necessidade de adquirir data centers, servidores físicos e nem pagar licenciamento de softwares de gestão, o cloud computing proporciona uma redução de custos. Além disso, dispensa a contratação de diversos profissionais para cuidar de um setor de TI. Assim, a mão de obra pode ser direcionada para outras tarefas da empresa.
+
+5. Facilidade de acesso e praticidade
+Grande parte dos sistemas de armazenamento em nuvem são disponibilizados em aplicativos móveis. Assim, há uma otimização na produtividade da instituição. E como essa facilidade permite o acesso de qualquer dispositivo, a qualquer hora e lugar, faz com que sua equipe tenha os dados necessários à sua disposição sempre que precisar. Basta ter acesso à internet!
+
+
+- Quais são as principais diferenças entre Arquitetura Monolítica, Microsserviços e Serverless?
+A arquitetura monolítica combina todas as funcionalidades numa mesma aplicação, ou seja o produto tem alta acoplagem. Já na arquitetura de microsserviços temos uma divisão de funcionalidades em serviços de responsabilidade única (dividido por dominio) que se comunicam entre sí. Já serverless é um tipo de arquitetura serverless permite a abstração de recursos (alocação dinamica de recursos e deploy) de servidor.
